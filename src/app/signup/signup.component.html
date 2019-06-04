@@ -1,0 +1,15 @@
+<div class=signup>
+  <p>First Name: <input type="text" [(ngModel)]="fname" class="a"></p>
+  <p>Middle Name: <input type="text" [(ngModel)]="mname" class="a"></p>
+  <p>Last Name: <input type="text" [(ngModel)]="lname" class="a"></p>
+  <p>Email: <input type="email" [(ngModel)]="email" class="a"></p>
+  <p>Birthdate: <input type="date" [(ngModel)]="birthdate" class="a"></p>
+  <p>Your District: <input type="text" [(ngModel)]="dlocation" class="a"></p>
+  <p>Your State: <input type="text" [(ngModel)]="slocation" class="a"></p>
+  <p>Your Country: <input type="text" [(ngModel)]="clocation" class="a"></p>
+  <p>Choose a password: <input type="text" [(ngModel)]="password" class="a"></p>
+  <p><button (click)="singup()" class="button1">Signup Now</button></p>
+  <div>
+    <p>Already a member? <button (click)="login()">Login</button></p>
+  </div>
+</div>

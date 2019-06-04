@@ -1,0 +1,13 @@
+.header{
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 30px;
+}
+::selection {
+    background-color: #FFA;
+    color: #000;
+  }

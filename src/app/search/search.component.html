@@ -1,0 +1,16 @@
+<div class="spacex"></div>
+<div class="search">
+    <h2>How may I help you?</h2>
+    <p><input type="text" placeholder="Search.." class="nav" [(ngModel)]="inputQuery">
+    <div class="buttons">
+    <p><button class="button1" (click)="search()">Search</button></p>
+</div><br />
+    <div *ngFor="let abc of boxObject.boxNumber" class="result" >
+    <div *ngIf="searchClicked"><br /><br />
+        <fieldset>
+          {{abc}}
+        </fieldset>
+      </div>
+    </div>
+    <br />
+</div>

@@ -1,0 +1,17 @@
+
+.space{
+    padding: 45px;
+}
+::selection {
+    background-color: #FFA;
+    color: #000;
+  }
+.footer{
+    
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+    text-align: center;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
